@@ -14,7 +14,13 @@ function on_click_num(event)
 }
 
 function backspace(event) {
-    let target = get_target()
+    let target = get_target();
     let s = target.innerHTML;
-    target.innerHTML = s.slice(0, s.length - 1)
+    target.innerHTML = s.slice(0, s.length - 1);
+}
+
+function clear(event)
+{
+    let target = get_target();
+    target.innerHTML = '';
 }

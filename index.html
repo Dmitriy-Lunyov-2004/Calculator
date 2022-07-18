@@ -67,7 +67,6 @@
                                 button_9.addEventListener("click", on_click_num);
                             </script>
                         </div>
-                        <div class="escape"></div>
                         <div class="calculator-button-wrapper">
                             <button id="button_0" class="calculator-button num">0</button>
                             <script>
@@ -75,9 +74,15 @@
                             </script>
                         </div>
                         <div class="calculator-button-wrapper">
-                            <button id="button_backspace" class="calculator-button backspace">c</button>
+                            <button id="button_backspace" class="calculator-button operation">c</button>
                             <script>
                                 button_backspace.addEventListener("click", backspace);
+                            </script>
+                        </div>
+                        <div class="calculator-button-wrapper">
+                            <button id="button_clear" class="calculator-button operation">cc</button>
+                            <script>
+                                button_clear.addEventListener("click", clear);
                             </script>
                         </div>
                     </div>
