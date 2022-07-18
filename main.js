@@ -8,5 +8,5 @@ function on_click_num(event)
 
     let source = event.target;
 
-    target.innerHTML += event.target.getElementsByTagName('p')[0].innerHTML;
+    target.innerHTML += event.target.innerHTML;
 }
