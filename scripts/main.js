@@ -1,9 +1,5 @@
 function get_target() {
-    let enviroment = document.body
-    .getElementsByClassName('calculator-interface')[0];
-
-    let target = enviroment.getElementsByClassName('calculator-input')[0];
-
+    let target = document.getElementById("input_box");
     return target
 }
 

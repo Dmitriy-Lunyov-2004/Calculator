@@ -1,0 +1,15 @@
+
+.calculator-buttons-section {
+    background-color:lightgray;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.calculator-input {
+    background-color:white;
+    height:100px;
+    text-align:right;
+    font-size:3em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow:scroll;
+}
